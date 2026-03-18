@@ -1,0 +1,177 @@
+{
+    "custom.lasercharge": {
+    "category": "master",
+    "sounds": [
+    "custom/charged-laser"
+  ]
+  },
+    "custom.basicdoor": {
+    "category": "master",
+    "sounds": [
+    "custom/basic_door"
+  ]
+  },
+    "custom.airlockdoor": {
+    "category": "master",
+    "sounds": [
+    "custom/airlock_doors"
+  ]
+  },
+    "custom.powerswitch": {
+    "category": "master",
+    "sounds": [
+    "custom/loud-lightswitch"
+  ]
+  },
+    "custom.beep1": {
+    "category": "master",
+    "sounds": [
+    "custom/beep"
+  ]
+  },
+  "custom.beep2": {
+    "category": "master",
+    "sounds": [
+    "custom/beep2"
+  ]
+  },
+  "custom.alarm": {
+    "category": "master",
+    "sounds": [
+    "custom/alarm"
+  ]
+  },
+  "custom.alarm2": {
+    "category": "master",
+    "sounds": [
+    "custom/alarm2"
+  ]
+  },
+  "custom.alarm3": {
+    "category": "master",
+    "sounds": [
+    "custom/alarm3"
+  ]
+  },
+  "custom.alarm4": {
+    "category": "master",
+    "sounds": [
+    "custom/alarm4"
+  ]
+  },
+  "custom.alarm5": {
+    "category": "master",
+    "sounds": [
+    "custom/meltdownsiren"
+  ]
+  },
+  "custom.notification": {
+    "category": "master",
+    "sounds": [
+    "custom/notification"
+  ]
+  },
+  "custom.overloadmusic": {
+    "category": "master",
+    "sounds": [
+    "custom/overloadmusic"
+  ]
+  },
+  "custom.shieldboom": {
+    "category": "master",
+    "sounds": [
+    "custom/shieldboom"
+  ]
+  },
+  "custom.explosioncharge": {
+    "category": "master",
+    "sounds": [
+    "custom/reactordetonationcharging"
+  ]
+  },
+  "custom.reactorboom": {
+    "category": "master",
+    "sounds": [
+    "custom/reactorexplosion"
+  ]
+  },
+  "custom.elevatordoor": {
+    "category": "master",
+    "sounds": [
+    "custom/elevatordoor"
+  ]
+  },
+  "custom.freezesong": {
+    "category": "master",
+    "sounds": [
+    "custom/freezesong"
+  ]
+  },
+  "custom.powercharge": {
+    "category": "master",
+    "sounds": [
+    "custom/powercharge"
+  ]
+  },
+  "custom.alarmbeetpro": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmbeetpro"
+  ]
+  },
+  "custom.alarmtwisted": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmtwisted"
+  ]
+  },
+  "custom.alarmshort": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmshort"
+  ]
+  },
+  "custom.alarmbermuda": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmbermuda"
+  ]
+  },
+  "custom.alarm8foot": {
+    "category": "master",
+    "sounds": [
+    "custom/alarm8foot"
+  ]
+  },
+  "custom.alarmgreece": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmgreece"
+  ]
+  },
+  "custom.alarmtaiwan": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmtaiwan"
+  ]
+  },
+  "custom.alarmsiren": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmsiren"
+  ]
+  },
+  "custom.alarmcity": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmcity"
+  ]
+  },
+  "custom.alarmbiohazard": {
+    "category": "master",
+    "sounds": [
+    "custom/alarmbiohazard"
+  ]
+  }
+
+}
