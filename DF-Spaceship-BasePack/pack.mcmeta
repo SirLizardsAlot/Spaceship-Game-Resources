@@ -1,0 +1,22 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "DF Spaceship Base Pack",
+        "color": "aqua"
+      },
+      {
+        "text": "\n1.21.11 scaffold with custom sounds, models, and a screen-shake shader template.",
+        "color": "gray"
+      }
+    ],
+    "min_format": [
+      75,
+      0
+    ],
+    "max_format": [
+      75,
+      0
+    ]
+  }
+}

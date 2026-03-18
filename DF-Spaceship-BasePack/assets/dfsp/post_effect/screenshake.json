@@ -1,0 +1,67 @@
+{
+  "targets": {
+    "shake": {}
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "dfsp:post/screenshake",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:main"
+        }
+      ],
+      "uniforms": {
+        "ShakeConfig": [
+          {
+            "name": "Time",
+            "type": "float",
+            "value": 0.0
+          },
+          {
+            "name": "Strength",
+            "type": "float",
+            "value": 0.008
+          },
+          {
+            "name": "Speed",
+            "type": "float",
+            "value": 40.0
+          },
+          {
+            "name": "Chromatic",
+            "type": "float",
+            "value": 0.0015
+          }
+        ]
+      },
+      "output": "shake"
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "shake"
+        }
+      ],
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "output": "minecraft:main"
+    }
+  ]
+}
