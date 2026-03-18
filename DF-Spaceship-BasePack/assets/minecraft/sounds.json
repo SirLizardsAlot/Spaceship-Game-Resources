@@ -1,4 +1,19 @@
 {
+  "custom.airlock_cycle": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "block/iron_door/close",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "block/piston/extend",
+        "pitch": 0.7,
+        "volume": 0.7
+      }
+    ]
+  },
   "custom.alarm": {
     "category": "master",
     "sounds": [
@@ -65,221 +80,96 @@
       "custom/alarm_twisted_fire"
     ]
   },
-  "alarm": {
-    "subtitle": "subtitles.dfsp.alarm",
+  "custom.button_press": {
+    "category": "master",
     "sounds": [
       {
-        "name": "dfsp:alarms/biohazard",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_8foot": {
-    "subtitle": "subtitles.dfsp.alarm_8foot",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/eightfoot",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_beetpro": {
-    "subtitle": "subtitles.dfsp.alarm_beetpro",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/beetpro",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_bermuda_eas": {
-    "subtitle": "subtitles.dfsp.alarm_bermuda_eas",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/bermuda_eas",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_biohazard": {
-    "subtitle": "subtitles.dfsp.alarm_biohazard",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/biohazard",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_city": {
-    "subtitle": "subtitles.dfsp.alarm_city",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/city",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_greece_eas": {
-    "subtitle": "subtitles.dfsp.alarm_greece_eas",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/greece_eas",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_short": {
-    "subtitle": "subtitles.dfsp.alarm_short",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/short_alarm",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_siren_type01": {
-    "subtitle": "subtitles.dfsp.alarm_siren_type01",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/siren_type01",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_taiwan_eas": {
-    "subtitle": "subtitles.dfsp.alarm_taiwan_eas",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/taiwan_eas",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "alarm_twisted_fire": {
-    "subtitle": "subtitles.dfsp.alarm_twisted_fire",
-    "sounds": [
-      {
-        "name": "dfsp:alarms/twisted_fire",
-        "stream": false,
-        "volume": 0.9
-      }
-    ]
-  },
-  "airlock_cycle": {
-    "subtitle": "subtitles.dfsp.airlock_cycle",
-    "sounds": [
-      {
-        "name": "minecraft:block/iron_door/close",
-        "pitch": 0.8,
-        "volume": 0.8
-      },
-      {
-        "name": "minecraft:block/piston/extend",
-        "pitch": 0.7,
-        "volume": 0.7
-      }
-    ]
-  },
-  "button_press": {
-    "subtitle": "subtitles.dfsp.button_press",
-    "sounds": [
-      {
-        "name": "minecraft:block/stone_button/click_on",
+        "name": "block/stone_button/click_on",
         "pitch": 1.0,
         "volume": 0.7
       }
     ]
   },
-  "computer_beep": {
-    "subtitle": "subtitles.dfsp.computer_beep",
+  "custom.computer_beep": {
+    "category": "master",
     "sounds": [
       {
-        "name": "minecraft:block/note_block/bit",
+        "name": "block/note_block/bit",
         "pitch": 1.75,
         "volume": 0.45
       }
     ]
   },
-  "door_close": {
-    "subtitle": "subtitles.dfsp.door_close",
+  "custom.door_close": {
+    "category": "master",
     "sounds": [
       {
-        "name": "minecraft:block/iron_door/close",
+        "name": "block/iron_door/close",
         "pitch": 0.8,
         "volume": 0.9
       }
     ]
   },
-  "door_open": {
-    "subtitle": "subtitles.dfsp.door_open",
+  "custom.door_open": {
+    "category": "master",
     "sounds": [
       {
-        "name": "minecraft:block/iron_door/open",
+        "name": "block/iron_door/open",
         "pitch": 0.85,
         "volume": 0.9
       }
     ]
   },
-  "gun_pistol": {
-    "subtitle": "subtitles.dfsp.gun_pistol",
+  "custom.gun_pistol": {
+    "category": "master",
     "sounds": [
       {
-        "name": "minecraft:item/crossbow/shoot",
+        "name": "item/crossbow/shoot",
         "pitch": 1.35,
         "volume": 0.9
       }
     ]
   },
-  "gun_rifle": {
-    "subtitle": "subtitles.dfsp.gun_rifle",
+  "custom.gun_rifle": {
+    "category": "master",
     "sounds": [
       {
-        "name": "minecraft:entity/firework_rocket/blast",
+        "name": "entity/firework_rocket/blast",
         "pitch": 0.9,
         "volume": 0.85
       }
     ]
   },
-  "gun_scatter": {
-    "subtitle": "subtitles.dfsp.gun_scatter",
+  "custom.gun_scatter": {
+    "category": "master",
     "sounds": [
       {
-        "name": "minecraft:entity/generic/explode",
+        "name": "entity/generic/explode",
         "pitch": 1.7,
         "volume": 0.3
       },
       {
-        "name": "minecraft:item/crossbow/shoot",
+        "name": "item/crossbow/shoot",
         "pitch": 0.7,
         "volume": 0.95
       }
     ]
   },
-  "lever_toggle": {
-    "subtitle": "subtitles.dfsp.lever_toggle",
+  "custom.lever_toggle": {
+    "category": "master",
     "sounds": [
       {
-        "name": "minecraft:block/lever/click",
+        "name": "block/lever/click",
         "pitch": 0.75,
         "volume": 0.7
       }
     ]
   },
-  "machine_loop": {
-    "subtitle": "subtitles.dfsp.machine_loop",
+  "custom.machine_loop": {
+    "category": "master",
     "sounds": [
       {
-        "name": "minecraft:block/beacon/ambient",
+        "name": "block/beacon/ambient",
         "pitch": 0.65,
         "volume": 0.45
       }
