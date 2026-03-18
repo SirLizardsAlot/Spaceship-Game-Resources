@@ -29,29 +29,29 @@ If DiamondFire lets you set `item_model` directly, you can bypass the selectors 
 
 ## Custom sounds
 
-Custom sound events live under the `dfsp` namespace:
+DiamondFire appears to resolve `/sound custom <name>` as `minecraft:<name>`. This pack now registers the custom sounds under the `minecraft` namespace so those commands work directly.
 
-- `dfsp:door_open`
-- `dfsp:door_close`
-- `dfsp:machine_loop`
-- `dfsp:alarm`
-- `dfsp:alarm_beetpro`
-- `dfsp:alarm_twisted_fire`
-- `dfsp:alarm_short`
-- `dfsp:alarm_bermuda_eas`
-- `dfsp:alarm_8foot`
-- `dfsp:alarm_greece_eas`
-- `dfsp:alarm_taiwan_eas`
-- `dfsp:alarm_siren_type01`
-- `dfsp:alarm_city`
-- `dfsp:alarm_biohazard`
-- `dfsp:button_press`
-- `dfsp:lever_toggle`
-- `dfsp:computer_beep`
-- `dfsp:gun_pistol`
-- `dfsp:gun_rifle`
-- `dfsp:gun_scatter`
-- `dfsp:airlock_cycle`
+- `minecraft:door_open`
+- `minecraft:door_close`
+- `minecraft:machine_loop`
+- `minecraft:alarm`
+- `minecraft:alarm_beetpro`
+- `minecraft:alarm_twisted_fire`
+- `minecraft:alarm_short`
+- `minecraft:alarm_bermuda_eas`
+- `minecraft:alarm_8foot`
+- `minecraft:alarm_greece_eas`
+- `minecraft:alarm_taiwan_eas`
+- `minecraft:alarm_siren_type01`
+- `minecraft:alarm_city`
+- `minecraft:alarm_biohazard`
+- `minecraft:button_press`
+- `minecraft:lever_toggle`
+- `minecraft:computer_beep`
+- `minecraft:gun_pistol`
+- `minecraft:gun_rifle`
+- `minecraft:gun_scatter`
+- `minecraft:airlock_cycle`
 
 The pack now includes custom alarm clips inside `assets/dfsp/sounds/alarms/`. The non-alarm events still use the placeholder setup from the first draft and can be replaced later with your own `.ogg` files.
 
@@ -60,8 +60,8 @@ Alarm clips are now set up as short reusable pulses so you can replay them for a
 Example:
 
 ```mcfunction
-/playsound dfsp:alarm master @a ~ ~ ~ 1 1
-/playsound dfsp:airlock_cycle master @a ~ ~ ~ 1 1
+/playsound minecraft:alarm master @a ~ ~ ~ 1 1
+/playsound minecraft:airlock_cycle master @a ~ ~ ~ 1 1
 ```
 
 ## Screen shake
