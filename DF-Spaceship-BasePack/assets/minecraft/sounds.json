@@ -1,4 +1,70 @@
 {
+  "custom.alarm": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm"
+    ]
+  },
+  "custom.alarm_8foot": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_8foot"
+    ]
+  },
+  "custom.alarm_beetpro": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_beetpro"
+    ]
+  },
+  "custom.alarm_bermuda_eas": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_bermuda_eas"
+    ]
+  },
+  "custom.alarm_biohazard": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_biohazard"
+    ]
+  },
+  "custom.alarm_city": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_city"
+    ]
+  },
+  "custom.alarm_greece_eas": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_greece_eas"
+    ]
+  },
+  "custom.alarm_short": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_short"
+    ]
+  },
+  "custom.alarm_siren_type01": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_siren_type01"
+    ]
+  },
+  "custom.alarm_taiwan_eas": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_taiwan_eas"
+    ]
+  },
+  "custom.alarm_twisted_fire": {
+    "category": "master",
+    "sounds": [
+      "custom/alarm_twisted_fire"
+    ]
+  },
   "alarm": {
     "subtitle": "subtitles.dfsp.alarm",
     "sounds": [

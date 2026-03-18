@@ -29,7 +29,7 @@ If DiamondFire lets you set `item_model` directly, you can bypass the selectors 
 
 ## Custom sounds
 
-DiamondFire appears to resolve `/sound custom <name>` as `minecraft:<name>`. This pack now registers the custom sounds under the `minecraft` namespace so those commands work directly.
+DiamondFire custom sounds use keys like `custom.alarm` inside `assets/minecraft/sounds.json`. This pack now includes those `custom.*` entries and matching files under `assets/minecraft/sounds/custom/` so `/sound custom <name>` can resolve them directly.
 
 - `minecraft:door_open`
 - `minecraft:door_close`
